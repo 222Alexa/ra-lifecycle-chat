@@ -1,0 +1,79 @@
+/*Блоки пользователей и сообщений*/
+
+.users-box {
+  width: 30%;
+  background-color: #597c7c;
+}
+
+.user-card {
+  margin-bottom: 5px;
+}
+
+.users-box__btn-block {
+  margin-top: 20px;
+}
+button.chat-exit__btn {
+  width: 70px;
+  height: 30px;
+  background-color: #fbf6f0;
+}
+.messages-box {
+  width: 60%;
+  margin: 0 auto;
+}
+/*User-card*/
+
+.user-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.user-image__wrapper {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+img.user-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/*Message-card*/
+.messages-container {
+  display: flex;
+  flex-direction: column;
+}
+.message-content {
+  margin: 10px;
+  display: flex;
+}
+
+span.author {
+  margin-right: 10px;
+  color: darkcyan;
+  font-weight: 600;
+}
+
+span.time {
+  font-size: 0.8rem;
+}
+
+.message-card {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  border-radius: 10px;
+  background-color: aliceblue;
+  width: 80%;
+}
+
+.message-card.out-msg {
+  background-color: lightsteelblue;
+  margin-left: 18%;
+}

@@ -1,0 +1,35 @@
+.panel-container {
+  display: flex;
+  flex-direction: row;
+
+  border: 1px solid;
+  border-radius: 8px;
+  width: 640px;
+  margin: 0 auto;
+  background-color: #fbf6f0;
+}
+
+.modal {
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.9);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  overflow-y: scroll;
+  padding: 60px 15px;
+  position: absolute;
+  right: 0;
+  top: -1000;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.modal-active {
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  transition: 0.3s;
+  visibility: visible;
+}
