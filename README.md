@@ -69,3 +69,5 @@ Backend вы можете взять готовый (из каталога `back
 [Backend](https://github.com/222Alexa/backEnd.git)
 
 [GH-Page](https://222alexa.github.io/ra-lifecycle-chat/)
+
+[![Build status](https://ci.appveyor.com/api/projects/status/5ix3u166u2b1nod1/branch/main?svg=true)](https://ci.appveyor.com/project/222Alexa44925/ra-lifecycle-chat/branch/main)
